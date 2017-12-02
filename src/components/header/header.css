@@ -1,0 +1,14 @@
+.header {
+  width: calc(100vw - 350px);
+  color: white;
+  height: 200px;
+  margin-left: 500px;
+  padding: 120px 40px 0px 40px;
+}
+
+@media (max-width: 860px) {
+  .header{
+    margin: 0px;
+    padding: 100px 40px 0px 40px;
+  }
+}

@@ -1,0 +1,37 @@
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+  background-color: #929292;
+  z-index: 120;
+  padding: 20px 60px;
+  color: white;
+}
+
+.footer-nav-item {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.footer-contact-item {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.footer_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.footer_logo {
+  width: 200px;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+}

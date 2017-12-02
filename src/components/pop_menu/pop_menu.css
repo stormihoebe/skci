@@ -1,0 +1,35 @@
+.pop_menu {
+  display: none;
+}
+#popover-trigger-click{
+  display: none;
+}
+.menu_image {
+  width: 50px;
+  display: block;
+  opacity: .4;
+}
+.menu_image:hover {
+  opacity: 1;
+}
+@media (max-width: 860px) {
+  .pop_menu {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: calc(50% - 18px);
+  }
+  #popover-trigger-click{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(193, 17, 17, 1);
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white !important;
+    text-decoration: none;
+    font-weight: 500
+  }
+  .popover.bottom>.arrow:after {
+    border-bottom-color: #B22A21;
+  }
+}
