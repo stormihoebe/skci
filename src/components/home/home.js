@@ -1,11 +1,8 @@
 import React, { Component } from 'react'
-import { Button, Grid, Row, Col } from 'react-bootstrap'
 import{ Sidebar } from './../sidebar/sidebar'
 import{ Footer } from './../footer/footer'
 import{ HomeHeader } from './../home-header/home-header'
 import{ HomeBody } from './../home-body/home-body'
-
-const logo = require('../../assets/logo.png')
 
 export class Home extends Component {
   render() {

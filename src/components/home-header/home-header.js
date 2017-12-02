@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid, Row, Col, OverlayTrigger, Popover } from 'react-bootstrap'
+import { Button, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { PopMenu } from '../pop_menu/pop_menu'
 import './home-header.css';

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid, Row, Col } from 'react-bootstrap'
+import { Button, Row, Col } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './about_body.css';
 
@@ -12,7 +12,7 @@ export class AboutBody extends Component {
         <h1>Our History</h1>
       <Row>
         <Col md={5}>
-          <img src={flag} className={"history-img"}/>
+          <img src={flag} className={"history-img"} alt={"American Flag"}/>
         </Col>
         <Col md={7}>
         <div className="history-text">

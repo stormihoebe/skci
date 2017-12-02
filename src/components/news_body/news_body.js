@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Row, Col } from 'react-bootstrap'
 import YouTube from 'react-youtube'
 import './news_body.css';
 

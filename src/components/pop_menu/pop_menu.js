@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Grid, Row, Col, OverlayTrigger, Popover } from 'react-bootstrap'
+import { OverlayTrigger, Popover } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './pop_menu.css';
 const menu = require('../../assets/menu.svg')
@@ -24,7 +24,7 @@ export class PopMenu extends Component {
       <div className={"pop_menu"}>
         <OverlayTrigger trigger="click" placement="bottom" overlay={popoverClick}>
           
-            <img src={menu} className={"menu_image"}/>
+            <img src={menu} className={"menu_image"} alt={"click for menu"}/>
           
         </OverlayTrigger>
       </div>

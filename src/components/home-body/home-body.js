@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { Button, Grid, Row, Col } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 import './home-body.css';
 
 const comingSoon = require('../../assets/liveD.png')
-const logo = require('../../assets/logo.png')
 
 export class HomeBody extends Component {
   render() {
@@ -13,7 +12,7 @@ export class HomeBody extends Component {
         <Col md={8}>
           <h2>Current Market Data</h2>
           <div>
-            <img src={comingSoon} className="market-data-cs"/>
+            <img src={comingSoon} className="market-data-cs" alt={"coming soon"}/>
           </div>
           <span className="marget-data-disclaimer">All market data contained within the SKCI website should be considered as a reference only.</span>
         </Col>
